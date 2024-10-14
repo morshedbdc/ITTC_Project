@@ -9,6 +9,9 @@ module.exports = {
         'orange-500': '#FF3503',
         'Purple-500': '#5A4FCF',
       },
+      fontFamily: {
+        'oswald': ["Manrope", "sans-serif"],
+      }
     },
   },
   plugins: [],
