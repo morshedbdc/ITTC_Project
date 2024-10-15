@@ -1,7 +1,5 @@
-import { Link } from 'react-router-dom';
-import ittc from '../images/ittc.png'
-
-
+import { Link } from "react-router-dom";
+import ittc from "../images/ittc.png";
 
 function navbar() {
     return (
@@ -14,24 +12,23 @@ function navbar() {
             }}
         >
             <img src={ittc} alt="" className="w-40 xl:w-52" />
-            
-       
-        <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/AboutUs">AboutUs</Link>
-          </li>
-          <li>
-            <Link to="/Courses">Courses</Link>
-          </li>
-          <li>
-          <Link to="/contact">contact</Link>
-          </li>
-        </ul>
-      </nav>
+
+            <nav>
+            <ul>
+                <li>
+                <Link to="/">Home</Link>
+                </li>
+                <li>
+                <Link to="/AboutUs">AboutUs</Link>
+                </li>
+                <li>
+                <Link to="/Courses">Courses</Link>
+                </li>
+                <li>
+                <Link to="/contact">contact</Link>
+                </li>
+            </ul>
+            </nav>
         </div>
         </div>
     );
