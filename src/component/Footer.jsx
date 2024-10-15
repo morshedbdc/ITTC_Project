@@ -13,7 +13,7 @@ function Footer() {
             className="max-w-screen- flex flex-wrap items-center justify-between mx-auto p-1 rounded-t-md bg-[#f1f2f6]"
             
         >
-            <div className="footer-text"> <FaInstagram /> <AiOutlineFacebook /> <AiOutlineLinkedin /><TfiEmail /> <GrPhone /> <IoLocationOutline />All copyright are Reserved@.</div>
+            <div className="footer-text"> <FaInstagram /> <AiOutlineFacebook /> <AiOutlineLinkedin /><TfiEmail /> <GrPhone /> <IoLocationOutline />	&copy;2024 Iraq Technology, All Rights reserve</div>
         </div>
         
        
