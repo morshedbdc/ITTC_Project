@@ -9,7 +9,7 @@ import Courses from "./Sections/Courses";
 function App() {
   return (
     <div className="bg-black h-screen font-oswald">
-      <BrowserRouter>
+      <BrowserRouter> 
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />}>
