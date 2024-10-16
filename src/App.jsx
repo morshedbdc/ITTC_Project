@@ -4,22 +4,21 @@ import Navbar from "./component/navbar";
 import Home from "./Sections/Home";
 import AboutUs from "./Sections/AboutUs";
 import Courses from "./Sections/Courses";
-
+import Contact from "./Sections/Contact";
 
 function App() {
   return (
     <div className="bg-black h-screen font-oswald">
       <BrowserRouter>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Courses" element={<Courses />} />
-          <Route path="/contact" element={<contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-      <Footer/>
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }
