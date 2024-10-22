@@ -4,7 +4,7 @@ import Home from "./Sections/Home";
 import AboutUs from "./Sections/AboutUs";
 import Courses from "./Sections/Courses";
 import Contact from "./Sections/Contact";
-import Navbar from "./component/Navbar";
+import Navbar from "./component/navbar";
 
 function App() {
   return (
