@@ -6,14 +6,12 @@ function AboutUs() {
     <div className="md:flex">
       <Image />
       <div className="container md:my-24 xl:my-32 px-2 py-2">
-        <h2 className="text- xl:-ml-10 xl:text-xl text-gray-600 w-full xl:w-10/12 p-2 md:p-2">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quae
-          alias doloremque repudiandae molestias voluptatibus aspernatur est
-          veniam facilis ratione illo maxime, molestiae atque sed obcaecati,
-          eligendi dolorum tempora vel! A deleniti, culpa temporibus
-          reprehenderit possimus aliquid odio officia sed nostrum voluptas porro
-          at earum architecto cumque facere nulla quidem nisi, debitis esse
-          similique est impedit maxime libero maiores. Laudantium.
+        <h2 className="text- xl:-ml-10 xl:text-xl text-gray-800 w-full xl:w-10/12 p-2 md:p-2">
+        ITTC offers a wide range of courses that cover the latest technologies and trends in IT, 
+        ensuring that professionals can improve their technical skills and stay up-to-date with 
+        the rapidly evolving technological landscape. We strive to empower both individuals and 
+        companies by equipping them with the knowledge and tools they need to succeed in 
+        an ever-changing technological environment.
         </h2>
         </div>
     </div>
