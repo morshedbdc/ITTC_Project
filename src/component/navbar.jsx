@@ -3,7 +3,7 @@ import ittc from '../images/ittc.png'
 import { TiThMenuOutline } from "react-icons/ti";
 import { AiOutlineClose } from "react-icons/ai";
 
-function navbar() {
+function Navbar() {
     // const [toggleNav, setToggleNav] = useState(false);
     return (
         <div>
@@ -32,7 +32,7 @@ function navbar() {
             <Link to="/Courses" className='flex md:inline-flex p-4 items-center hover:text-gray-500'>Courses</Link>
           </li>
           <li>
-          <Link to="/contact" className='flex md:inline-flex p-4 items-center hover:text-gray-500'>contact</Link>
+          <Link to="/Contact" className='flex md:inline-flex p-4 items-center hover:text-gray-500'>contact</Link>
           </li>
         </ul>
         <div className='ml-auto md:hidden cursor-pointer'>
