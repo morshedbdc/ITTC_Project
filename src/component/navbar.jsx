@@ -5,20 +5,6 @@ import { AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
     // const [toggleNav, setToggleNav] = useState(false);
-    return (
-        <div>
-       
-        <nav className='flex px-4 border-b md:shadow-lg items-center relative' style={{
-            backgroundImage:
-                "linear-gradient(-45deg, #5A4FCF, #f1f2f6, #FF3503, #FFD700)",
-            }}
-        >
-             <div
-            className="text-lg font-bold md:py-0 py-4"
-            >
-            <img src={ittc} alt="" className="w-40 xl:w-52" />
-            
-            </div>
 
   return (
     <div>
@@ -69,5 +55,6 @@ function Navbar() {
     </div>
   );
 }
+
 
 export default Navbar;
