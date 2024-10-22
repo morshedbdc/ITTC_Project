@@ -6,9 +6,10 @@ import AboutUs from "./Sections/AboutUs";
 import Courses from "./Sections/Courses";
 import Contact from "./Sections/Contact";
 
+
 function App() {
   return (
-    <div className="bg-black h-screen font-oswald">
+    <div className="h-screen font-oswald">
       <BrowserRouter>
         <Navbar />
         <Routes>
