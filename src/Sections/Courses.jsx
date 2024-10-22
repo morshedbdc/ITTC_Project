@@ -22,7 +22,7 @@ function Courses() {
       {showMore.length < Data.length && (
         <button
           type="button"
-          className="py-3 px-5 text-sm font-semibold text-center block mx-auto my-4 rounded-lg sm:w-fit bg-gray-200 focus:ring-4 focus:outline-none"
+          className="py-3 px-5 text-sm font-semibold text-center block mx-auto my-6 rounded-lg sm:w-fit bg-gray-200 hover:bg-[#5A4FCF] hover:text-white focus:ring-4 focus:outline-none"
           onClick={() => setPage(page + 1)}
         >
           Load more ...
