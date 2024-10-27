@@ -3,7 +3,9 @@ import Image from "../component/Image";
 
 function AboutUs() {
   return (
+    
     <div className="md:flex">
+      
       <div className="container md:my-24 xl:my-32 px-2 py-2">
         <h2 className="max-w-2xl md:text-lg lg:text-xl md:ml-4 text-gray-800">
         ITTC offers a wide range of courses that cover the latest technologies and trends in IT, 

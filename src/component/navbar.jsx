@@ -11,7 +11,7 @@ function Navbar() {
     <nav
       className="flex pr-4 md:shadow-lg items-center w-full fixed z-40 "
       style={{
-        backgroundImage: "linear-gradient(-40deg, #1d0e6a, #cb6ade)",
+        backgroundImage: "linear-gradient(-40deg, #1d0e6a, #ececee)",
       }}
     >
       <div className="text-lg font-bold py-1">
