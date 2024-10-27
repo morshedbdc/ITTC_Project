@@ -7,9 +7,9 @@ function Home() {
   return (
     <section>
       <div>
-        <div class="relative w-full h-auto cursor-pointer">
+        <div className="relative w-full h-auto cursor-pointer">
           <img src={hreo} className="w-full h-52 md:h-96" alt="..." />
-          <div class="flex justify-center items-center absolute px-4 md:text-lg lg:text-2xl xl:text-3xl text-white bottom-6 md:bottom-20 md:left-20 lg:bottom-32 lg:left-32">
+          <div className="flex justify-center items-center absolute px-4 md:text-lg lg:text-2xl xl:text-3xl text-white bottom-6 md:bottom-20 md:left-20 lg:bottom-32 lg:left-32">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, ducimus.
             </p>
