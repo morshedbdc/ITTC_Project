@@ -11,6 +11,12 @@ module.exports = {
       },
       fontFamily: {
         'oswald': ["Manrope", "sans-serif"],
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 20px #cb6ade",
+          "0 0px 65px #cb6ade"
+        ]
       }
     },
   },
