@@ -17,10 +17,7 @@ function Contact() {
                     <label for="message" className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
                     <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Leave a comment..."></textarea>
                 </div>
-                <button type="submit" className="py-3 px-5 text-sm font-semibold text-center rounded-lg sm:w-fit focus:ring-4 focus:outline-none" style={{
-                    backgroundImage:
-                        "linear-gradient(-45deg, #5A4FCF, #f1f2f6, #FF3503, #FFD700)",
-                    }}>Send message</button>
+                <button type="submit" className="py-3 px-5 text-sm font-semibold text-center rounded-lg sm:w-fit bg-gray-200 hover:bg-[#5A4FCF] hover:text-white focus:ring-4 focus:outline-none">Send message</button>
             </form>
         </div>
     </section>
