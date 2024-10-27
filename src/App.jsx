@@ -3,7 +3,7 @@ import Footer from "./component/Footer";
 import Home from "./Sections/Home";
 import AboutUs from "./Sections/AboutUs";
 import Courses from "./Sections/Courses";
-import Contact from "./Sections/Contact";
+import Contact from "./Sections/contact";
 import Navbar from "./component/navbar";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Courses" element={<Courses />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
       <Footer />
