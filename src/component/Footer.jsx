@@ -8,7 +8,7 @@ import { GrLocation } from "react-icons/gr";
 function Footer() {
     return (
         <footer>
-        <div className="mx-auto w-full p-4 py-6 lg:py-8 bg-[#f1f2f6]">
+        <div className="mx-auto w-full p-4 py-6 lg:py-8 bg-[#f1f2f6] ">
         
             <div>
             <h2 class="mb-6 text-base font-semibold text-[#1d0e6a] uppercase">Contact us</h2>
