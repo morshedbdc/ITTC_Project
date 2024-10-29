@@ -13,9 +13,9 @@ module.exports = {
         'oswald': ["Manrope", "sans-serif"],
       },
       dropShadow: {
-        glow: [
-          "0 0px 20px #cb6ade",
-          "0 0px 65px #cb6ade"
+        dark: [
+          "0 0px 6px #151515",
+          "0 0px 65px #151515"
         ]
       }
     },
