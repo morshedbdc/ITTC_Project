@@ -3,6 +3,7 @@ import hero from "../images/team.jpg";
 // import { RiUserFollowLine } from "react-icons/ri";
 // import { FaRegHandshake } from "react-icons/fa";
 
+
 function Home() {
   return (
     <section>
