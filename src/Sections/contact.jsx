@@ -3,7 +3,7 @@ function Contact() {
     return (
     <section>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Us</h2>
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 animate-bounce w- h-9 animation: bounce s infinite;">Contact Us</h2>
             <form className="space-y-8">
                 <div>
                     <label for="email" className="block mb-2 text-sm font-medium text-gray-900">Your email</label>
@@ -17,9 +17,24 @@ function Contact() {
                     <label for="message" className="block mb-2 text-sm font-medium text-gray-900">Your message</label>
                     <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Leave a comment..."></textarea>
                 </div>
-                <button type="submit" className="py-3 px-5 text-sm font-semibold text-center rounded-lg sm:w-fit bg-gray-200 hover:bg-[#5A4FCF] hover:text-white focus:ring-4 focus:outline-none">Send message</button>
+                <button type="submit" className="group relative px-4 py-2 font-medium text-slate-400 transition-colors duration-[400ms] hover:text-indigo-300 ">Send message
+                
+
+   
+      <span className="absolute left-0 top-0 h-[2px] w-0 bg-indigo-300 transition-all duration-100 group-hover:w-full" />
+
+      
+      <span className="absolute right-0 top-0 h-0 w-[2px] bg-indigo-300 transition-all delay-100 duration-100 group-hover:h-full" />
+
+      
+      <span className="absolute bottom-0 right-0 h-[2px] w-0 bg-indigo-300 transition-all delay-200 duration-100 group-hover:w-full" />
+
+    
+      <span className="absolute bottom-0 left-0 h-0 w-[2px] bg-indigo-300 transition-all delay-300 duration-100 group-hover:h-full" />
+    </button>
             </form>
         </div>
+     
     </section>
     )
 }
