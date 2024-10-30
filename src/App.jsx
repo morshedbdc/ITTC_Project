@@ -5,6 +5,9 @@ import AboutUs from "./Sections/AboutUs";
 import Courses from "./Sections/Courses";
 import Contact from "./Sections/contact";
 import Navbar from "./component/navbar";
+import Details from "./component/Details";
+import "./Asset/i18n"; 
+
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Courses" element={<Courses />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/description/:id" element={<Details />} />
         </Routes>
       </BrowserRouter>
       <Footer />

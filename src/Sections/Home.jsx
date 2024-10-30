@@ -2,29 +2,26 @@ import hero from "../images/team.jpg";
 // import { GrUpdate } from "react-icons/gr";
 // import { RiUserFollowLine } from "react-icons/ri";
 // import { FaRegHandshake } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 
 function Home() {
+  const { t } = useTranslation();
+
   return (
     <section>
       <div>
-        <div className="w-full h-auto cursor-pointer flex items-center justify-center">
+        <div className="w-full h-auto cursor-pointer flex items-center justify-center ">
           <img src={hero} className="w-full h-52 md:h-[500px] -z-50 relative object-cover drop-shadow-2xl" alt="..." />
             <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-4xl text-[#ececee] drop-shadow-dark">
-            Iraq Technology
-            Training Center
+            {t("company name")}
             </p>
         </div>
         <div className="md:grid grid-cols-2">
           <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">Who we are ?</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Who we are ?")}</h1>
           <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
-            ITTC - Iraq Technology Training Center ITTC is part of the Iraq
-            Technology Solutions group, specializing in providing professional
-            development and training in the field of information technology. The
-            center aims to enhance the technical skills and capabilities of
-            industry professionals through comprehensive and integrated training
-            programs.
+            {t("description")}
           </p>
           </div>
           <div></div>
@@ -32,21 +29,16 @@ function Home() {
       <div className="md:grid grid-cols-2">
         <div></div>
         <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">Vision</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Vision")}</h1>
         <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
-          To be the leading institute in providing specialized professional training that enhances 
-          the skills of engineers and technicians, enabling them to keep 
-          up with technological advancements 
-          in infrastructure and engineering fields.</p>
+          {t("description2")}</p>
         </div>
       </div>
       <div className="md:grid grid-cols-2">
           <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">Mission</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Mission")}</h1>
           <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
-          To deliver specialized and practical training programs focused on developing the technical 
-          and professional skills of engineers and technicians, utilizing the latest tools and 
-          technologies to ensure the effective application of engineering standards in real-world projects.
+          {t("description3")}
           </p>
           </div>
           <div></div>
