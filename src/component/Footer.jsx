@@ -4,14 +4,18 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { TfiEmail } from "react-icons/tfi";
 import { GrPhone } from "react-icons/gr";
 import { GrLocation } from "react-icons/gr";
+import { useTranslation } from "react-i18next";
+
 
 function Footer() {
+    const { t } = useTranslation();
+
     return (
         <footer>
         <div className="mx-auto w-full p-4 py-6 lg:py-8 bg-[#f1f2f6] ">
         
             <div>
-            <h2 className="mb-6 text-base font-semibold text-[#1d0e6a] uppercase">Contact us</h2>
+            <h2 className="mb-6 text-base font-semibold text-[#1d0e6a] uppercase">{t("Contact Us")}</h2>
             <div className="text-gray-600">
             <a
                 href="mailto:info@iraq-technology-iq.com"
@@ -32,7 +36,7 @@ function Footer() {
             >
                 <GrLocation className="m-1 size-4" />
                 <span className="hover:underline">
-                Hariri Building, Al-Huria Square, Al-Karada, Baghdad, Iraq,
+                {t("address")}
                 </span>
             </a>
             </div>
@@ -60,7 +64,7 @@ function Footer() {
             </a>
             </div>
             <div className="text-sm text-gray-500 sm:text-center ">
-            &copy;2024 Iraq Technology, All Rights reserve
+            &copy;{t("copyright")}
             </div>
             </div>
             

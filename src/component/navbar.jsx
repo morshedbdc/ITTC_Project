@@ -3,9 +3,14 @@ import { Link } from "react-router-dom";
 import ittc from "../images/logo-01.png";
 import { TiThMenuOutline } from "react-icons/ti";
 import { AiOutlineClose } from "react-icons/ai";
+import LanguageSwitcher from '../Sections/LanguageSwitcher';
+import { useTranslation } from "react-i18next";
+
 
 function Navbar() {
   const [toggleNav, setToggleNav] = useState(false);
+  const { t } = useTranslation();
+
 
   return (
     <nav
@@ -15,24 +20,27 @@ function Navbar() {
       </div>
       <div className="ml-auto md:flex md:items-center hidden">
         <ul className="flex md:space-x-2">
+          <li className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
+          <LanguageSwitcher />
+          </li>
           <li>
             <Link to="/" className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
-              Home
+              {t("Home")}
             </Link>
           </li>
           <li>
             <Link to="/AboutUs" className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
-              About Us
+              {t("About Us")}
             </Link>
           </li>
           <li>
             <Link to="/Courses" className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
-              Courses
+              {t("Courses")}
             </Link>
           </li>
           <li>
             <Link to="/Contact" className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
-              Contact
+              {t("Contact")}
             </Link>
           </li>
         </ul>
@@ -42,24 +50,25 @@ function Navbar() {
       </div>
       <div className={`absolute top-full left-0 right-0 transition-all duration-700 ${toggleNav ? 'block' : 'hidden'} bg-white`}>
         <ul className="flex flex-col">
+          <li className="flex p-4 items-center" onClick={() => setToggleNav(false)}><LanguageSwitcher/></li>
           <li>
             <Link to="/" className="flex p-4 items-center" onClick={() => setToggleNav(false)}>
-              Home
+              {t("Home")}
             </Link>
           </li>
           <li>
             <Link to="/AboutUs" className="flex p-4 items-center" onClick={() => setToggleNav(false)}>
-              About Us
+              {t("About Us")}
             </Link>
           </li>
           <li>
             <Link to="/Courses" className="flex p-4 items-center" onClick={() => setToggleNav(false)}>
-              Courses
+            {t("Courses")}
             </Link>
           </li>
           <li>
             <Link to="/Contact" className="flex p-4 items-center" onClick={() => setToggleNav(false)}>
-              Contact
+            {t("Contact")}
             </Link>
           </li>
         </ul>
