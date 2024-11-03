@@ -1,4 +1,3 @@
-import hero from "../images/team.jpg";
 // import { GrUpdate } from "react-icons/gr";
 // import { RiUserFollowLine } from "react-icons/ri";
 // import { FaRegHandshake } from "react-icons/fa";
@@ -12,8 +11,9 @@ function Home() {
     <section>
       <div>
         <div className="w-full h-auto cursor-pointer flex items-center justify-center ">
-          <img src={hero} className="w-full h-52 md:h-[500px] -z-50 relative object-cover drop-shadow-2xl" alt="..." />
-            <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-4xl text-[#ececee] drop-shadow-dark">
+          <img src="https://img.freepik.com/free-photo/woman-touching-smart-technology-holographic-interface_53876-96144.jpg?t=st=1730617858~exp=1730621458~hmac=b1bbd14bacc567ff91a48560fe471ff80b5c43596ee2368265191c676b32dee9&w=826" 
+          className="w-full h-52 md:h-[450px] -z-50 relative object-cover filter blur-[px]" alt="..." />
+            <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-4xl text-[#ececee]">
             {t("company name")}
             </p>
         </div>
