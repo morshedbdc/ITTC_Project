@@ -19,7 +19,7 @@ function Home() {
         </div>
         <div className="md:grid grid-cols-2">
           <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Who we are ?")}</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a] mr-4 md:mr-10 ">{t("Who we are ?")}</h1>
           <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
             {t("description")}
           </p>
@@ -29,14 +29,14 @@ function Home() {
       <div className="md:grid grid-cols-2">
         <div></div>
         <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Vision")}</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a] mr-4 md:mr-10 ">{t("Vision")}</h1>
         <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
           {t("description2")}</p>
         </div>
       </div>
       <div className="md:grid grid-cols-2">
           <div>
-        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a]">{t("Mission")}</h1>
+        <h1 className="ml-4 md:ml-10 text-3xl lg:text-5xl mt-16 pb-4 text-[#1d0e6a] mr-4 md:mr-10 ">{t("Mission")}</h1>
           <p className="text-justify mx-4 md:mx-10 pb-10 lg:text-xl text-gray-600">
           {t("description3")}
           </p>

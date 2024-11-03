@@ -6,6 +6,7 @@ function LanguageSwitcher() {
 
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang);
+        document.body.dir = i18n.dir();
     };
 
     return (
