@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { Data } from "../Asset/Data";
 import Card from "../component/Card";
-import hero from '../images/work.jpg';
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -27,7 +26,8 @@ function Courses() {
   return (
     <>
     <div className="w-full h-auto cursor-pointer flex items-center justify-center">
-          <img src={hero} className="w-full h-52 md:h-[500px] object-cover -z-50 relative drop-shadow-2xl" alt="..." />
+          <img src="https://img.freepik.com/free-photo/researcher-using-transparent-digital-tablet-screen-futuristic-technology_53876-101147.jpg?t=st=1730619887~exp=1730623487~hmac=4c9dd06237844d6dcb3bf3073559f34ae126be93a8daafde9302d3a7f294a94e&w=826" 
+          className="w-full h-52 md:h-[450px] -z-50 relative object-cover filter blur-[1px]" alt="..." />
             <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-3xl text-[#efefef] drop-shadow-dark">
             {t("company name")}
             </p>

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Image from "../component/Image";
-import hero from '../images/laptop.jpg';
+import hero from '../images/technology.jpg';
 
 
 function AboutUs() {
@@ -9,7 +9,7 @@ function AboutUs() {
   return (
     <>
     <div className="w-full h-auto cursor-pointer flex items-center justify-center">
-          <img src={hero} className="w-full h-52 md:h-[500px] object-cover -z-50 relative drop-shadow-2xl" alt="..." />
+          <img src={hero} className="w-full h-52 md:h-[450px] -z-50 relative object-cover filter blur-[1px] opacity-" alt="..." />
             <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-3xl text-[#efefef] drop-shadow-dark">
             {t("company name")}
             </p>
