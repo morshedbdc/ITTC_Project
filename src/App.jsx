@@ -11,7 +11,7 @@ import "./Asset/i18n";
 
 function App() {
   return (
-    <div className="h-screen font-oswald">
+    <div className="h-screen">
       <BrowserRouter>
         <Navbar />
         <Routes>
