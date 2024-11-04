@@ -5,19 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'orange-500': '#FF3503',
-        'Purple-500': '#5A4FCF',
-      },
       fontFamily: {
-        'oswald': ["Manrope", "sans-serif"],
+        'oswald': ["Oswald", "sans-serif"],
+        'manrope': ["Manrope", "serif"],
       },
-      dropShadow: {
-        dark: [
-          "0 0px 6px #151515",
-          "0 0px 65px #151515"
-        ]
-      }
+      colors: {
+        'black-blue': '#1d0e6a',
+        'pink': '#cb6ade'
+      },
     },
   },
   plugins: [],

@@ -17,9 +17,6 @@ function Navbar() {
       </div>
       <div className="ml-auto md:flex md:items-center hidden">
         <ul className="flex md:space-x-2">
-          <li className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
-            <LanguageSwitcher />
-          </li>
           <li>
             <Link
               to="/"
@@ -51,6 +48,9 @@ function Navbar() {
             >
               {t("Contact")}
             </Link>
+          </li>
+          <li className="flex p-4 items-center text-[#ececee] drop-shadow-[#cb6ade]">
+            <LanguageSwitcher />
           </li>
         </ul>
       </div>

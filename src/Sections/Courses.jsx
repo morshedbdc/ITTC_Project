@@ -23,13 +23,13 @@ function Courses() {
 
   return (
     <>
-      <div className="w-full h-auto cursor-pointer flex items-center justify-center">
+      <div className="w-full h-auto cursor-pointer flex items-center justify-center bg-pink/30">
         <img
           src="https://img.freepik.com/free-photo/researcher-using-transparent-digital-tablet-screen-futuristic-technology_53876-101147.jpg?t=st=1730619887~exp=1730623487~hmac=4c9dd06237844d6dcb3bf3073559f34ae126be93a8daafde9302d3a7f294a94e&w=826"
-          className="w-full h-52 md:h-[450px] relative object-cover filter blur-[3.5px]"
+          className="w-full h-52 md:h-[450px] relative object-cover -z-40"
           alt="..."
         />
-        <p className="absolute px-4 text-xl md:text-2xl lg:text-3xl xl:text-3xl text-[#efefef] drop-shadow-dark">
+        <p className="absolute px-4 text-xl md:text-2xl lg:text-3xl xl:text-3xl text-[#efefef] font-semibold">
           {t("company name")}
         </p>
       </div>
