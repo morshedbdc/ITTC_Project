@@ -10,10 +10,10 @@ function AboutUs() {
       <div className="w-full h-auto cursor-pointer flex items-center justify-center bg-black-blue/40">
         <img
           src={hero}
-          className="w-full h-52 md:h-[450px] relative object-cover -z-40"
+          className="w-full h-[350px] md:h-[450px] relative object-cover -z-40"
           alt="..."
         />
-        <p className="absolute px-4 text-lg md:text-xl lg:text-3xl xl:text-3xl text-[#efefef] font-semibold">
+        <p className="absolute px-4 text-[18px] md:text-xl lg:text-3xl xl:text-3xl text-[#efefef] font-semibold">
           {t("company name")}
         </p>
       </div>
